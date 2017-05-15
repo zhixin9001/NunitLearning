@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace LogAn
 {
-  class Program
+  public class LogAnalyzer
   {
-    static void Main(string[] args)
+    public int Add(int a, int b)
     {
+      return a + b;
     }
   }
 }
