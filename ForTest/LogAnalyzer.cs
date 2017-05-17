@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("ABOUT.CH3.Logan.Tests")]
 namespace LogAn
 {
   public class LogAnalyzer
