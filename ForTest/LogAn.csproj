@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{67902A44-8FF5-434C-A967-1F396E6BC0C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ForTest</RootNamespace>
-    <AssemblyName>ForTest</AssemblyName>
+    <RootNamespace>LogAn</RootNamespace>
+    <AssemblyName>LogAn</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IEmailService.cs" />
+    <Compile Include="IWebService.cs" />
+    <Compile Include="LogAnalyzer2.cs" />
     <Compile Include="LogAnalyzer.cs" />
     <Compile Include="MemCalculator.cs" />
     <Compile Include="Program.cs" />

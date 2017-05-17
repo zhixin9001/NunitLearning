@@ -6,6 +6,12 @@ namespace LogAn
 {
   public class LogAnalyzer
   {
+    private IWebService webService;
+    public LogAnalyzer(IWebService web)
+    {
+      this.webService = web;
+    }
+
     public bool WasLastFileNameValid { get; set; }
 
     public bool IsValidLogFileName(string fileName)
@@ -14,34 +20,39 @@ namespace LogAn
       return mgr.IsValid(fileName);
     }
 
-    public class FileExtensionManager : IExtensionManger
+    public void Analyze(string fileName)
     {
-      public bool IsValid(String fileName)
+      if (fileName.Length < 8)
       {
-        if (string.IsNullOrEmpty(fileName))
-        {
-          throw new ArgumentException("filename has to be provided");
-        }
-        if (!fileName.EndsWith(".SLF", StringComparison.CurrentCultureIgnoreCase))
-        {
-          return false;
-        }
-        return true;
+        webService.LogError("Filename too short: " + fileName);
       }
     }
+  }
 
-    public interface IExtensionManger
+  public interface IExtensionManger
+  {
+    bool IsValid(string fileName);
+  }
+  public class FileExtensionManager : IExtensionManger
+  {
+    public bool IsValid(String fileName)
     {
-      bool IsValid(string fileName);
-    }
-
-    public class StubExtensionManager : IExtensionManger
-    {
-      public bool IsValid(string fileName)
+      if (string.IsNullOrEmpty(fileName))
       {
-        return true;
+        throw new ArgumentException("filename has to be provided");
       }
+      if (!fileName.EndsWith(".SLF", StringComparison.CurrentCultureIgnoreCase))
+      {
+        return false;
+      }
+      return true;
     }
-
+  }
+  public class StubExtensionManager : IExtensionManger
+  {
+    public bool IsValid(string fileName)
+    {
+      return true;
+    }
   }
 }
