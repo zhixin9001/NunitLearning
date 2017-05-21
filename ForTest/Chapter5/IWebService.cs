@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogAn
+namespace LogAn.Chapter5
 {
   public interface IWebService
   {
-    void LogError(string message);
+    void Write(string message);
+    void Write(ErrorInfo message);
   }
 }

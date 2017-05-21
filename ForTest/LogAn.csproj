@@ -42,11 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IEmailService.cs" />
-    <Compile Include="IWebService.cs" />
-    <Compile Include="LogAnalyzer2.cs" />
-    <Compile Include="LogAnalyzer.cs" />
-    <Compile Include="MemCalculator.cs" />
+    <Compile Include="Chapter5\ErrorInfo.cs" />
+    <Compile Include="Chapter5\IFileNameRules.cs" />
+    <Compile Include="Chapter5\ILogger.cs" />
+    <Compile Include="Chapter5\IWebService.cs" />
+    <Compile Include="Chapter5\LogAnalyzer.cs" />
+    <Compile Include="Chapter5\LogAnalyzer2.cs" />
+    <Compile Include="Chapter5\LogAnalyzer3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

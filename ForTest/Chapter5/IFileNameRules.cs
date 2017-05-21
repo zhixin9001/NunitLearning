@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogAn
+namespace LogAn.Chapter5
 {
-  public interface IEmailService
+  public interface IFileNameRules
   {
-    void SendEmail(string to, string subject, string body);
+    bool IsValidLogFileName(string fileName);
   }
 }
