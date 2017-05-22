@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogAn.Chapter3._3._4._1
+namespace LogAn.Chapter3._3_4_1
 {
   public class FileExtensionManager : IExtensionManager
   {

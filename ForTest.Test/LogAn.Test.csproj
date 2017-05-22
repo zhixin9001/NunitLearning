@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter3\3_4_3 Constructor Injection\FakeExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_3 Constructor Injection\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter3\3_4_5 Property Injection\FakeExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_5 Property Injection\LogAnalyzerTests.cs" />
     <Compile Include="Chapter5\LogAnalyzerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,7 +66,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Chapter3\3.4.1\" />
+    <Folder Include="Chapter3\3_4_1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

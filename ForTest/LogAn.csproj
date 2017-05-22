@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter3\3.4.1\FileExtensionManager.cs" />
-    <Compile Include="Chapter3\3.4.1\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_1\FileExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_1\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_3 Constructor Injection\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_3 Constructor Injection\LogAnalyzer.cs" />
+    <Compile Include="Chapter3\3_4_5 Property Injection\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_5 Property Injection\LogAnalyzer.cs" />
     <Compile Include="Chapter5\ErrorInfo.cs" />
     <Compile Include="Chapter5\IFileNameRules.cs" />
     <Compile Include="Chapter5\ILogger.cs" />
