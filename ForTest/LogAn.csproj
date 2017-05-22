@@ -56,8 +56,11 @@
     <Compile Include="Chapter3\3_4_6_2 Virtual\FileExtensionManager.cs" />
     <Compile Include="Chapter3\3_4_6_2 Virtual\IExtensionManager.cs" />
     <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzer.cs" />
-    <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzerTests.cs" />
     <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzerUsingFactoryMethod.cs" />
+    <Compile Include="Chapter3\3_5_1\FileExtensionManager.cs" />
+    <Compile Include="Chapter3\3_5_1\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_5_1\LogAnalyzer.cs" />
+    <Compile Include="Chapter3\3_5_1\LogAnalyzerUsingFactoryMethod.cs" />
     <Compile Include="Chapter5\ErrorInfo.cs" />
     <Compile Include="Chapter5\IFileNameRules.cs" />
     <Compile Include="Chapter5\ILogger.cs" />

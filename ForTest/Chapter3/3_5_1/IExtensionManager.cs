@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogAn.Chapter3._3_4_6_2_Virtual
+namespace LogAn.Chapter3._3_5_1
 {
-  class LogAnalyzerTests
+  public interface IExtensionManager
   {
+    bool IsValid(string fileName);
   }
 }

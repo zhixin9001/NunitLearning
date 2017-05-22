@@ -52,7 +52,9 @@
     <Compile Include="Chapter3\3_4_5 Property Injection\LogAnalyzerTests.cs" />
     <Compile Include="Chapter3\3_4_6_1 Factory\FakeExtensionManager.cs" />
     <Compile Include="Chapter3\3_4_6_1 Factory\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\FakeExtensionManager.cs" />
     <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter3\3_5_1\LogAnalyzerTests.cs" />
     <Compile Include="Chapter5\LogAnalyzerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
