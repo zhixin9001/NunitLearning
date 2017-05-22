@@ -61,6 +61,15 @@
     <Compile Include="Chapter3\3_5_1\IExtensionManager.cs" />
     <Compile Include="Chapter3\3_5_1\LogAnalyzer.cs" />
     <Compile Include="Chapter3\3_5_1\LogAnalyzerUsingFactoryMethod.cs" />
+    <Compile Include="Chapter4\4_1_CallWeb\IWebService.cs" />
+    <Compile Include="Chapter4\4_1_CallWeb\LogAnalyzer.cs" />
+    <Compile Include="Chapter4\4_6_1_WebThrow_TestEmailDetail\EmailInfo.cs" />
+    <Compile Include="Chapter4\4_6_1_WebThrow_TestEmailDetail\IEmailService.cs" />
+    <Compile Include="Chapter4\4_6_1_WebThrow_TestEmailDetail\IWebService.cs" />
+    <Compile Include="Chapter4\4_6_1_WebThrow_TestEmailDetail\LogAnalyzer.cs" />
+    <Compile Include="Chapter4\4_6_WebThrow_CallEmail\IEmailService.cs" />
+    <Compile Include="Chapter4\4_6_WebThrow_CallEmail\IWebService.cs" />
+    <Compile Include="Chapter4\4_6_WebThrow_CallEmail\LogAnalyzer.cs" />
     <Compile Include="Chapter5\ErrorInfo.cs" />
     <Compile Include="Chapter5\IFileNameRules.cs" />
     <Compile Include="Chapter5\ILogger.cs" />
@@ -75,5 +84,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
