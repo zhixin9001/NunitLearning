@@ -48,6 +48,16 @@
     <Compile Include="Chapter3\3_4_3 Constructor Injection\LogAnalyzer.cs" />
     <Compile Include="Chapter3\3_4_5 Property Injection\IExtensionManager.cs" />
     <Compile Include="Chapter3\3_4_5 Property Injection\LogAnalyzer.cs" />
+    <Compile Include="Chapter3\3_4_6_1 Factory\ExtensionManagerFactory.cs" />
+    <Compile Include="Chapter3\3_4_6_1 Factory\FileExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_6_1 Factory\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_6_1 Factory\LogAnalyzer.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\ExtensionManagerFactory.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\FileExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\IExtensionManager.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzer.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter3\3_4_6_2 Virtual\LogAnalyzerUsingFactoryMethod.cs" />
     <Compile Include="Chapter5\ErrorInfo.cs" />
     <Compile Include="Chapter5\IFileNameRules.cs" />
     <Compile Include="Chapter5\ILogger.cs" />
