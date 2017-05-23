@@ -77,6 +77,18 @@
     <Compile Include="Chapter5\LogAnalyzer.cs" />
     <Compile Include="Chapter5\LogAnalyzer2.cs" />
     <Compile Include="Chapter5\LogAnalyzer3.cs" />
+    <Compile Include="Chapter5_New\5_2\ILogger.cs" />
+    <Compile Include="Chapter5_New\5_2\LogAnalyzer.cs" />
+    <Compile Include="Chapter5_New\5_2_1 FakeValue\IFileNameRules.cs" />
+    <Compile Include="Chapter5_New\5_2_1 FakeValue\LogAnalyzer.cs" />
+    <Compile Include="Chapter5_New\5_3_1\ILogger.cs" />
+    <Compile Include="Chapter5_New\5_3_1\IWebService.cs" />
+    <Compile Include="Chapter5_New\5_3_1\LogAnalyzer.cs" />
+    <Compile Include="Chapter5_New\5_4_1 Listener\IView.cs" />
+    <Compile Include="Chapter5_New\5_4_1 Listener\Presenter.cs" />
+    <Compile Include="Chapter5_New\5_4_2\ILogger.cs" />
+    <Compile Include="Chapter5_New\5_4_2\IView.cs" />
+    <Compile Include="Chapter5_New\5_4_2\Presenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

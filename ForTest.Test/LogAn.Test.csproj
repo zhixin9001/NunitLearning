@@ -64,6 +64,11 @@
     <Compile Include="Chapter4\4_6_WebThrow_CallEmail\FakeWebService.cs" />
     <Compile Include="Chapter4\4_6_WebThrow_CallEmail\LogAnalyzeTests.cs" />
     <Compile Include="Chapter5\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter5_New\5_2\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter5_New\5_2_1 FakeValue\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter5_New\5_3_1\LogAnalyzerTests.cs" />
+    <Compile Include="Chapter5_New\5_4_1 Listener\EventRelatedTests.cs" />
+    <Compile Include="Chapter5_New\5_4_2\EventRelatedTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
