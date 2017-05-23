@@ -89,6 +89,8 @@
     <Compile Include="Chapter5_New\5_4_2\ILogger.cs" />
     <Compile Include="Chapter5_New\5_4_2\IView.cs" />
     <Compile Include="Chapter5_New\5_4_2\Presenter.cs" />
+    <Compile Include="Chapter5_New\5_4_3 Trigger\IView.cs" />
+    <Compile Include="Chapter5_New\5_4_3 Trigger\Presenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -18,7 +18,8 @@ namespace LogAn.Test.Chapter4._4_1_CallWeb
       LogAnalyzer log = new LogAnalyzer(mockService);
       string tooShortFileName = "a.123";
       log.Analyze(tooShortFileName);
-      StringAssert.Contains("Filename too short:"+tooShortFileName,mockService.LastError);
+      StringAssert.Contains("Filename too short:"
+        +tooShortFileName,mockService.LastError);
     }
   }
 }

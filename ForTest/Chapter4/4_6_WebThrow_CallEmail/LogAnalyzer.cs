@@ -10,7 +10,8 @@ namespace LogAn.Chapter4._4_6_WebThrow_CallEmail
   {
     private IWebService webService;
     private IEmailService emailService;
-    public LogAnalyzer(IWebService webService,IEmailService emailService)
+    public LogAnalyzer(IWebService webService
+        , IEmailService emailService)
     {
       this.webService = webService;
       this.emailService = emailService;
@@ -28,7 +29,6 @@ namespace LogAn.Chapter4._4_6_WebThrow_CallEmail
       {
         emailService.SendEmail("", "", e.ToString());
       }
-
     }
   }
 }

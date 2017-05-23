@@ -12,7 +12,8 @@ namespace LogAn.Test.Chapter4._4_6_WebThrow_CallEmail
     public string To { get; set; }
     public string Subject { get; set; }
     public string Body { get; set; }
-    public void SendEmail(string to, string subject, string body)
+    public void SendEmail(string to, string subject
+      , string body)
     {
       this.To = to;
       this.Subject = subject;

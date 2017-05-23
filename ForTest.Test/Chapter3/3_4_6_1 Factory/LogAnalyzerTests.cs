@@ -14,7 +14,8 @@ namespace LogAn.Test.Chapter3._3_4_6_1_Factory
     [Test]
     public void IsValidFileName_NameSupportedExtension_RetuensTrue()
     {
-      FakeExtensionManager fake = new FakeExtensionManager { WillBeValid = true };
+      FakeExtensionManager fake = 
+        new FakeExtensionManager { WillBeValid = true };
       ExtensionManagerFactory.SetManager(fake);
       LogAnalyzer logAnalyzer = new LogAnalyzer();
       bool isValid = logAnalyzer.IsValidLogFileName("a.txt");

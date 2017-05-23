@@ -69,6 +69,8 @@
     <Compile Include="Chapter5_New\5_3_1\LogAnalyzerTests.cs" />
     <Compile Include="Chapter5_New\5_4_1 Listener\EventRelatedTests.cs" />
     <Compile Include="Chapter5_New\5_4_2\EventRelatedTests.cs" />
+    <Compile Include="Chapter5_New\5_4_3 Trigger\EventFiringManual.cs" />
+    <Compile Include="Chapter5_New\5_4_3 Trigger\SomeView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
