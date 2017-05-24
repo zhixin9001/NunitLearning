@@ -91,6 +91,10 @@
     <Compile Include="Chapter5_New\5_4_2\Presenter.cs" />
     <Compile Include="Chapter5_New\5_4_3 Trigger\IView.cs" />
     <Compile Include="Chapter5_New\5_4_3 Trigger\Presenter.cs" />
+    <Compile Include="Chapter7\7_6_1_1_Abstract_Infrastructure\ConfigurationManager.cs" />
+    <Compile Include="Chapter7\7_6_1_1_Abstract_Infrastructure\ILogger.cs" />
+    <Compile Include="Chapter7\7_6_1_1_Abstract_Infrastructure\LogAnalyzer.cs" />
+    <Compile Include="Chapter7\7_6_1_1_Abstract_Infrastructure\LoggingFacility.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
